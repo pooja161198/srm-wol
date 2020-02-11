@@ -1,0 +1,134 @@
+body{
+ font-family:"Avenir Next";
+}
+
+a{
+ text-decoration:none;
+}
+
+li{
+ list-style:none;
+}
+
+header{
+ background-color:yellow;
+ color:black;
+ height:65px;
+ width:100%;
+position :fixed;
+top:0;
+z-index:15;
+}
+
+.header-logo{
+ float:left;
+ font-size:40px;
+ padding:20px 40px;
+ width:124px;
+ margin-top:20px;
+}
+
+.header-title{
+ font-size:36px;
+float:left;
+color:black;
+font-weight:solid;
+}
+
+.header-list li{
+ float:left;
+ padding:33px 20px;
+}
+
+.container{
+ width:1170px;
+ padding-left:15px;
+ padding-right:15px;
+ margin-left:auto;
+ margin-right:auto;
+}
+
+.top-wrapper{
+ padding:180px 0 100px 0;
+ background-color:black;
+ background-size:cover;
+ color:orange;
+ text-align:left;
+}
+
+.top-wrapper h1{
+ 
+ font-size: 45px;
+ letter-spacing:5px;
+ margin-bottom:10px;
+}
+
+.top-wrapper p{
+ 
+ margin-bottom:3px;
+}
+
+
+
+.lesson-wrapper{
+ height:500px;
+ padding-bottom:80px;
+ background-color:#f7f7f7;
+ text-align:center;
+}
+
+.heading{
+ font-weight:normal;
+ font-size:36px;
+}
+
+.lesson{
+ float:left;
+ width:100%;
+}
+
+.lesson-icon{
+ position:relative;
+}
+
+.lesson-icon h1{
+  position: absolute;
+  top: 90px;
+  width: 100%;
+  color: white;
+}
+.lesson-icon h2{
+  position: absolute;
+  top: 50px;
+  width: 100%;
+  color: white;
+}
+
+
+.txt-contents{
+ width:25%;
+ display:blocks;
+ margin-top:20px;
+ font-size:15px;
+ color:#b3aeb5;
+}
+
+.message-wrapper {
+  border-bottom: 1px solid #eee;
+  padding-bottom: 120px;
+  text-align: center;
+}
+
+.message {
+  padding: 100px
+  background-color: blue;
+  cursor: pointer;
+  box-shadow: 0 7px #1a7940;
+color white;
+}
+
+.message:active{
+  box-shadow:none;
+  position:relative;
+  top:7px;
+}
